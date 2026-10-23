@@ -6,6 +6,7 @@
 ![Tests](https://img.shields.io/badge/Tests-unittest-success)
 ![RAG](https://img.shields.io/badge/RAG-policy%20retrieval-6C5CE7)
 ![Safety](https://img.shields.io/badge/Safety-human%20approval-orange)
+![CI](https://img.shields.io/github/actions/workflow/status/Nothing0g/testing_case/tests.yml?branch=main)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 A responsible-AI hackathon prototype for classifying retail operations issues, retrieving the right policy guidance, checking CSV-backed evidence, recommending next actions, and preparing human-approved escalations.
@@ -146,10 +147,10 @@ Keep secrets in environment variables or a local secrets store. Never commit API
 ## Repository guide
 
 - `src/` — agents, orchestration, policy retrieval, and safety logic.
-- `data/` — synthetic demo CSV fixtures used by the working prototype.
+- `data/` — full supplied synthetic challenge CSVs: 1,250 inventory rows, 520 product records, 310 receipts, 160 returns/quality records, 550 support cases, plus store, vendor, employee, and escalation master tables.
 - `knowledge_base/` — policy files used for retrieval.
 - `evaluation/` — public cases and the required prediction schema.
-- `outputs/` — public metrics, report, and reproducible predictions.
+- `outputs/` — public metrics, report, and reproducible predictions. CI regenerates the files and uploads them as a workflow artifact.
 - `tests/` — regression and safety unit tests.
 - [Hackathon Playbook](HACKATHON_PLAYBOOK.md) — team split, timeline, demo script, and judge Q&A.
 - [Showcase notes](docs/SHOWCASE.md) — resume-safe project summary and speaking points.
