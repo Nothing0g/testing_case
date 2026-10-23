@@ -1,0 +1,9 @@
+return_id,created_ts,store_id,sku,reason,refund_amount_inr,receipt_present,status,notes
+RQ-001,2026-10-10 08:40,ST001,SKU2003,Football seam split,1099,Yes,Open,Quality review
+RQ-002,2026-10-10 09:20,ST006,SKU5002,Treadmill belt slipped during demo,24999,Yes,Open,Safety escalation
+RQ-003,2026-10-09 18:10,ST001,SKU2003,Football lost air quickly,1099,Yes,Open,Repeated football complaint
+RQ-004,2026-10-08 12:30,ST006,SKU2003,Football seam split,1099,No,Open,Possible batch issue
+RQ-005,2026-10-10 10:05,ST004,SKU5002,Treadmill damaged no receipt,24999,No,Open,Manager approval threshold
+RQ-008,2026-10-10 11:35,ST005,SKU2003,Price mismatch complaint,200,Yes,Open,Customer recovery review
+RQ-054,2026-09-21 13:54,ST036,SKU2003,Damaged packaging,1099,Yes,Closed,Manager review
+RQ-108,2026-10-07 17:48,ST022,SKU5002,Quality complaint,24999,No,Closed,Manager review

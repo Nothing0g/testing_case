@@ -1,0 +1,16 @@
+case_id,created_ts,store_id,employee_id,role,issue_text,sku,category_label,priority_label,status,register_id,root_cause_hint
+RET-001,2026-10-10 08:10,ST003,E0001,Cashier,Card reader on register 4 shows error 51. Other registers work,,POS and Payments,P3,Open,REG-04,Single register device issue
+RET-002,2026-10-10 08:35,ST003,E0002,Store Manager,All registers at Store ST003 cannot process card payments since 8:20 AM.,,POS and Payments,P1,Open,ALL,Store-wide payment outage
+RET-003,2026-10-10 09:00,ST002,E0003,Inventory Associate,English Willow Cricket Bat is out of stock again before school tournament orders.,SKU1001,Inventory and Replenishment,P2,Open,,Partial receipts and low vendor fill rate
+RET-004,2026-10-09 18:15,ST002,E0004,Inventory Associate,Received only 18 of 50 English Willow bats ordered yesterday.,SKU1001,Vendor and Supply Chain,P2,Open,,Short shipment
+RET-005,2026-10-10 09:20,ST005,E0005,Cashier,Shelf says Match Football is INR 899 but POS scans INR 1099.,SKU2003,Pricing and Promotions,P3,Open,REG-02,Shelf-vs-register mismatch
+RET-006,2026-10-10 09:45,ST005,E0006,Store Manager,Multiple football SKUs scanning higher than shelf labels in team sports aisle.,SKU2003,Pricing and Promotions,P2,Open,,Department pricing issue
+RET-007,2026-10-10 10:05,ST004,E0007,Customer Service,Customer wants to return treadmill without receipt. Refund amount INR 24999.,SKU5002,Returns and Refunds,P2,Open,REG-01,Manager approval required
+RET-008,2026-10-10 10:30,ST001,E0008,Store Manager,Three complaints of football seams splitting this week.,SKU2003,Product Quality and Safety,P2,Open,,Repeated quality complaints
+RET-009,2026-10-10 10:40,ST006,E0009,Store Manager,Customer reported injury after demo treadmill belt slipped.,SKU5002,Product Quality and Safety,P1,Open,,Safety escalation
+RET-010,2026-10-10 11:00,ST007,E0010,Regional Manager,Show unresolved high-priority cases from the last 24 hours by store.,,Other or Security,P4,Open,,Analytics request
+RET-011,2026-10-09 11:00,ST001,E0011,Inventory Associate,Badminton racquet below reorder point but still available.,SKU3001,Inventory and Replenishment,P3,Closed,,Reorder placed
+RET-012,2026-10-08 16:45,ST004,E0012,Cashier,Receipt printer jammed on register 2.,,POS and Payments,P3,Closed,REG-02,Printer cleared
+RET-013,2026-10-10 07:55,ST006,E0013,Store Manager,Exercise bike handlebar loosened during customer trial.,SKU5003,Product Quality and Safety,P1,Open,,Equipment safety risk
+RET-014,2026-10-10 08:50,ST002,E0014,Inventory Associate,System shows 4 English Willow bats but shelf count is zero.,SKU1001,Inventory and Replenishment,P2,Open,,Inventory discrepancy causing false availability
+RET-015,2026-10-10 09:15,ST008,E0015,Store Manager,Protective helmet shipment from vendor V004 arrived 60 percent complete.,SKU4002,Vendor and Supply Chain,P2,Open,,Short shipment
